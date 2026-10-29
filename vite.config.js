@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
                 name: 'account',
                 filename: 'remoteEntry.js',
                 exposes: {
-                    './Account': './src/Account.jsx',
+                    './Profile': './src/Account.jsx',
                 },
                 // Shared design system + stores from the host
                 remotes: {
